@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Горбатюк Н.І. ІА-91</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <h2>
+    Горбатюк Натан Ігорович
+  </h2>
+  <div>
+    Hародився хлопчик 30 січня 2002 року у місті Хмельницький
+  </div>
+  <ul>
+    Освіта:
+    <li onclick="changeColor()" id="elem">
+      Хмельницька гімназія №1 ім. В.Красицького
+    </li>
+    <li onclick="changeSecColor()" id="elem2">
+      Університет: КПІ ФІОТ 126
+    </li>
+  </ul>
+  <ul>
+    Хобі:
+    <li>
+      Теніс
+    </li>
+    <li>
+      Бокс
+    </li>
+    <li>
+      Стріми
+    </li>
+  </ul>
+  <ul>Улюблені фільми:
+    <ol type="1">
+      <li>
+        Паразити
+      </li>
+      <li>
+        Один вдома
+      </li>
+      <li>
+        Наркос
+      </li>
+    </ol>
+  </ul>
+  <div>
+    Рідне місто - Хмельницький. Промисловий, торговий та культурний центр Поділля. Розташований на річці Південний Буг.
+  </div>
+  <div class="img">
+    <a href="https://khm.gov.ua/"><img src="./khmelnytskyi-1.jpg"></a>
+  </div>
+  <input type="button" value="Збільшити" class="but1" onclick="zoomIncrease()">
+  <input type="button" value="Зменшити" class="but2" onclick="zoomDecrease()">
+  <input type="button" value="Видалити" class="but3" onclick="deleteImg()">
+  <input type="button" value="Додати" class="but4" onclick="addImg()">
+</body>
+
+</html>

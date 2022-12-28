@@ -1,0 +1,53 @@
+.wrapper {
+  width:50%;
+  height: 700px;
+}
+.block1 {
+  float: left;
+  width: 100%;
+  height: 20%;
+  background-color: rgb(173, 170, 170);
+}
+.block2 {
+  float: left;
+  width: 50%;
+  height: 60%;
+  background-color: rgb(123, 122, 122);
+}
+.block3 {
+  float: left;
+  width: 50%;
+  height: 60%;
+  background-color: rgb(218, 213, 213);
+}
+.block4 {
+  float: left;
+  width: 100%;
+  height: 20%;
+  background-color: rgb(100, 99, 99);
+}
+.wrapper2 {
+  width:50%;
+  height: 700px;
+}
+.block5, .block8 {
+  background-color: grey;
+  width: 100%;
+  height: 20%;
+}
+.mini-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 60%;
+}
+.block6 {
+  width: 50%;
+  background-color: rgb(202, 197, 197);
+  height: 100%;
+}
+.block7 {
+  width: 50%;
+  background-color: rgb(173, 150, 150);
+  height: 100%;
+}
